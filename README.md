@@ -21,6 +21,14 @@
 - 自定义配置
 - 有时间做成可视化配置或者cli配置也可以啊...
 
+## Demo
+
+可以在项目下使用`npm install,npm run build` 来生成demo文档，生成后的在public文件夹下。
+
+使用`npm run serve` 开启服务器，可以在浏览器看到生成静态文档
+
+
+
 
 
 

@@ -6,7 +6,8 @@
     "version": "3.7.1"
   },
   "scripts": {
-    "build": "hexo s"
+    "build": "hexo g",
+    "serve": "hexo s"
   },
   "devDependencies": {
     "handlebars": ">=4.0.14",
