@@ -1,0 +1,66 @@
+github_repo: 'xCss'
+# For use with the "Edit on GitHub" button, this represents the path to the
+# source markdown, from the root of the GitHub repository, with no leading
+# slash.  It's set to 'source' here as that's the Hexo default, though it can
+# vary based on repository configuration (some variations use the
+# less-preferred `content` directory.
+content_root: 'source'
+
+css_bundle: meteor
+nav_class: dark
+
+favicon: /images/favicon.ico
+
+logo:
+  nav_mobile: /images/valine.png
+  url: '//valine.js.org'
+  title: 'A fast, simple & powerful comment system.'
+  subtitle: "Ranger's doc"
+
+
+apis:
+  baidu: 3a67769b7760c62aafb6fa58d51da74c
+  ga: UA-61934506-3
+  marketo: 999-999-9999
+  segment: abcabcabcabc
+  docsearch:
+    apiKey: c4ef5def993e015b66f3ea438e2be874
+    indexName: valinejs
+
+
+ad:
+  enable: true
+
+sidebar:
+  null:
+    - index
+    - quickstart
+    - changelog
+  Config:
+    - configuration
+    - avatar
+    - notify
+    - i18n
+    - visitor
+  Other:
+    - jekyll
+    - hexo
+    - vuepress
+    - cdn
+    - contact
+    - faq
+
+valine:
+  enable: true
+  appId: ceJezCHuG7vEcJ3icqS25Ci6-gzGzoHsz
+  appKey: s35wFWuJrC5DyVJeAAG4Grpn
+  notify: true
+  placeholder: Just Go Go.
+  avatar: mm
+
+
+
+social_links:
+  github: 'https://github.com/watertreestar'
+#  twitter: '@xCss'
+
